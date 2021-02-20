@@ -52,8 +52,11 @@ def sure(): #while exited asking for confirmation
     print("Do you want to exit?(Y/N)")
     sure=input("")
     if sure in ['N','n']:
+        clrscr()
         main()
     else:
+        clrscr()
+        print("\n\n\n   Bye Bye !!!   \n\n\n")
         sys.stdout.write(RESET)
         exit()
 def read(x): #reading the ip and username txt
