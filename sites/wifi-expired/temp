@@ -1,0 +1,11 @@
+[Fri Feb 19 20:03:07 2021] PHP 8.0.2 Development Server (http://0.0.0.0:8080) started
+[Fri Feb 19 20:03:31 2021] 127.0.0.1:63367 Accepted
+[Fri Feb 19 20:03:31 2021] 127.0.0.1:63368 Accepted
+[Fri Feb 19 20:03:31 2021] 127.0.0.1:63367 [302]: GET /
+[Fri Feb 19 20:03:31 2021] 127.0.0.1:63367 Closing
+[Fri Feb 19 20:03:31 2021] 127.0.0.1:63368 [200]: GET /login.html
+[Fri Feb 19 20:03:31 2021] 127.0.0.1:63368 Closing
+[Fri Feb 19 20:03:39 2021] 127.0.0.1:63370 Accepted
+[Fri Feb 19 20:03:39 2021] 127.0.0.1:63371 Accepted
+[Fri Feb 19 20:03:39 2021] 127.0.0.1:63370 [302]: POST /login.php
+[Fri Feb 19 20:03:39 2021] 127.0.0.1:63370 Closing
