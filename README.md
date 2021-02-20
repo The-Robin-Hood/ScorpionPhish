@@ -17,7 +17,7 @@ Optional: Ngrok (Installed and configured with authtoken)
 
 ## Usage:
 1. git clone https://github.com/The-Robin-Hood/scorpion-phish
-2. cd scorpion-phish
+2. cd ScorpionPhish
 
 *If ngrok needed :*
 - Windows x64 : `curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -o ngrok.zip`
