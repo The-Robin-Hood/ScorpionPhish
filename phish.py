@@ -194,6 +194,8 @@ def repeat():   #After Completing the attack asking for whether to continue or e
          main()
          repeat()
      elif opt in ['n','N']:
+         clrscr()
+         print("\n\n\n   Bye Bye !!!   \n\n\n")
          sys.stdout.write(RESET)
          exit()
      else:
