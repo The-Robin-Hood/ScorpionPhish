@@ -16,7 +16,7 @@ Y88b  d88P Y88b.   Y88..88P 888     888 d88P 888 Y88..88P 888  888
                                     888                            
                                     888                            
                                     888\n                            
-                    (Python3 Phising Script) \n                                                 
+                    (Python Phishing Script) \n                                                 
                         Author:Robinhood\n
             Github: https://github.com/The-Robin-Hood           
                                     
