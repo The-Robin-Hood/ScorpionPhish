@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-#Phishing Script
+# Author:RobinHood
+# Github:https://github.com/The-Robin-Hood
 import sys,random,os,signal,time,re
 import subprocess as sp
 
