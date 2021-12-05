@@ -115,8 +115,9 @@ def phpserver(a): #starts the php server at port 8080  --->4
      if os.name=='nt':
          print(vict)
          ngroklink=os.popen('curl -s -N http://127.0.0.1:4040/api/tunnels').read()
-         r = re.findall(r"https://\w+",ngroklink)
-         print(r[0]+".ngrok.io")
+         import json
+         data = json.loads(ngroklink)
+         print(data['tunnels'][0]['public_url'])
      else:
          print(vict)
          os.system('curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io"')
